@@ -1,0 +1,1918 @@
+@-moz-document domain("klavogonki.ru") {
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Jost&family=Kablammo&family=Raleway&display=swap');
+
+#speedpanel #speed-label {
+    font-family: monospace;
+}
+.ownbanner-back {
+    display: none;
+}
+#speedpanel #errors-label {
+    font-family: monospace;
+}
+
+* {
+    /* display:none !important;
+    opacity:0 !important; */
+    /* transform:scale(1.01); */
+}
+
+/* #typetext > span >span,
+#beforefocus,
+#afterfocus,
+#typefocus,
+#inputtext */
+/* #index > div.secondrow.colmask.threecol233 > div.col1{
+    display:none;
+} */
+#index > div.secondrow.colmask.threecol233 {
+    /* display:flex;
+    width:80vw;
+flex-direction:row;
+justify-content: right;
+align-items: center;
+flex-wrap: wrap; */
+}
+
+#index > div.secondrow.colmask.threecol233 > div.col2,
+#index > div.secondrow.colmask.threecol233 > div.col3 {
+    /* max-width:33vw;
+    min-width:410px;
+    height:560px;
+    width:33vw !important; */
+}
+
+a,
+#players > div,
+#discussing_today > div > span,
+#discussing_recent > div > span,
+#discussing_week > div > span,
+#discussing_forum > div > span,
+#profile-index > div.col-xs-3 > div > div > div {
+    font-family: cursive;
+}
+
+#discussing_today > div > span,
+#discussing_recent > div > span,
+#discussing_week > div > span,
+#discussing_forum > div > span {
+    transition: 0.2s;
+}
+
+:root {
+    --col1: url('https://i.imgur.com/m226Pbf.png') !important;
+    --col2: url('https://i.imgur.com/1v9KHO4.png') !important;
+    --col3: url('https://i.imgur.com/GdgmEC3.png') !important;
+
+    --typefocus-color: rgba(255, 255, 255, 0.6);
+    --font-color: black;
+    --font-underline: underline;
+    --light-blue: rgb(226, 226, 226);
+    --main-blue: rgb(212, 212, 212);
+    --skyblue: rgb(249, 249, 249);
+    --dark-blue: rgb(125, 125, 125);
+    --transparent-blue: rgba(255, 255, 255, 0.372);
+    /* --kg-img: url('https://i.imgur.com/pXl829k.png') !important; */
+    /* --kg-img: url('https://i.imgur.com/shutXMn.png') !important; */
+    /* --kg-img: url('https://i.imgur.com/3QTlhAT.png') !important; */
+    --kg-img: url('https://i.imgur.com/CmN2R1Q.png') !important;
+
+    --car1: url('https://i.imgur.com/mXTPZid.png') !important;
+    --car2: url('https://i.imgur.com/5deWnHr.png') !important;
+    --car3: url('https://i.imgur.com/ZOsnlKT.png') !important;
+    --car4: url('https://i.imgur.com/eUmUc8D.png') !important;
+    --car5: url('https://i.imgur.com/Rjy8PXg.png') !important;
+    --car6: url('https://i.imgur.com/AgSB5aG.png') !important;
+    --car7: url('https://i.imgur.com/TFU6kRC.png') !important;
+    --car8: url('https://i.imgur.com/Stg8Xdh.png') !important;
+    --car9: url('https://i.imgur.com/SlErxvJ.png') !important;
+    --car10: url('https://i.imgur.com/CvFD63r.png') !important;
+    --car11: url('https://i.imgur.com/s6rzSN2.png') !important;
+    --car12: url('https://i.imgur.com/wvPli6q.png') !important;
+    --car13: url('https://i.imgur.com/dnzkDxa.png') !important;
+    --car14: url('https://i.imgur.com/rdO7uQH.png') !important;
+    --car15: url('https://i.imgur.com/Lh4g8Vk.png') !important;
+    --car16: url('https://i.imgur.com/tpF0jKg.png') !important;
+    --car17: url('https://i.imgur.com/R7YqlTQ.png') !important;
+    /* --car18:  url('https://i.imgur.com/FDLpEdM.png')  !important; */
+    /* --car18:  url('https://i.imgur.com/ENLiLnS.png')  !important; */
+    /* аэроглиссер */
+    --car18: url('https://i.imgur.com/zi7ljls.png') !important;
+    --car19: url('https://i.imgur.com/qekADGT.png') !important;
+    --car20: url('https://i.imgur.com/83qWcfY.png') !important;
+    --car21: url('https://i.imgur.com/ENLiLnS.png') !important;
+    --car22: url('https://i.imgur.com/iTvW2LH.png') !important;
+    --car23: url('https://i.imgur.com/ajyQMMu.png') !important;
+    --car24: url('https://i.imgur.com/yC8M9mS.png') !important;
+    --car25: url('https://i.imgur.com/J2nXsSa.png') !important;
+    --car26: url('https://i.imgur.com/PD52ySv.png') !important;
+    --car27: url('https://i.imgur.com/f8szyCV.png') !important;
+    --car28: url('https://i.imgur.com/Eg3jmPe.png') !important;
+    --car29: url('https://i.imgur.com/K752i8X.png') !important;
+    --car30: url('https://i.imgur.com/WzAHHvq.png') !important;
+    --car31: url('https://i.imgur.com/tTL063N.png') !important;
+    --car32: url('https://i.imgur.com/f05bqkM.png') !important;
+    --car33: url('https://i.imgur.com/JfqmtYv.png') !important;
+    --car34: url('https://i.imgur.com/4y3rwBQ.png') !important;
+    --car35: url('https://i.imgur.com/TuC4mX6.png') !important;
+    --car36: url('https://i.imgur.com/pUvLUZ6.png') !important;
+    --car37: url('https://i.imgur.com/CjCxWA4.png') !important;
+    --car38: url('https://i.imgur.com/IpRGoh0.png') !important;
+    --car39: url('https://i.imgur.com/VVN4ZVZ.png') !important;
+    --car40: url('https://i.imgur.com/frbuKsE.png') !important;
+    --car41: url('https://i.imgur.com/k8cEws2.png') !important;
+    --car42: url('https://i.imgur.com/EEGtobh.png') !important;
+    --car43: url('https://i.imgur.com/6nPkLYQ.png') !important;
+    --car44: url('https://i.imgur.com/BKNFyTN.png') !important;
+    --car45: url('https://i.imgur.com/PvBkLNW.png') !important;
+    --car1018: url('https://i.imgur.com/lxsQ4RY.png') !important;
+    --car1011: url('https://i.imgur.com/p2UxmgL.png') !important;
+    --car1023: url('https://i.imgur.com/IcgFCGn.png') !important;
+
+    --trophy1: url('https://i.imgur.com/gI8GIGA.png') !important;
+    /* --speedpanel: url('https://i.imgur.com/Jya0t0f.png') !important; */
+    --speedpanel: url('https://i.imgur.com/fzFUPcA.png') !important;
+    --enter-normal: url('https://i.imgur.com/kyfFWSh.png') !important;
+    --enter-mixed: url('https://i.imgur.com/ASBG5NY.png') !important;
+    --enter-x: url('https://i.imgur.com/IdTQb2U.png') !important;
+    /* --enter-x:url('https://i.imgur.com/HSjKICj.png') !important; без серого фона вокруг кружка */
+    --enter-late: url('https://i.imgur.com/7eRXy3J.png') !important;
+    --clock: url('https://i.imgur.com/9aE1qlf.png') !important;
+    --exclamation: url('https://i.imgur.com/Ar5GKnK.png') !important;
+    --borderforum: 1px solid rgb(180, 180, 180) !important;
+    --boxshadow: 0px 5px 13px 4px rgba(0, 0, 0, 0.225);
+    --bgggradient: linear-gradient(90deg, rgba(220, 220, 220, 1) 0%, rgba(177, 177, 177, 1) 100%) !important;
+    --orange: rgb(255, 119, 0);
+    --deep: rgb(0, 40, 75);
+    --pale: rgb(89, 115, 138);
+    --letterSpacing: -1px !important;
+    --fontWeight: 400 !important;
+}
+
+/* --light-blue:rgb(226,226,226);
+  --main-blue:rgb(212,212,212);
+  --skyblue:rgb(249, 249, 249); */
+div[class*=car-base].car1{
+    background-image: var(--car1);
+}
+
+#car1>tbody>tr>td>.imgcont>.img .car1 {
+    background-image: var(--car1);
+}
+
+#review {
+    display: none;
+}
+
+.profile-car .shop.tuning .car .imgcont {
+    background: var(--main-blue) !important;
+}
+
+div[class*=car-base].car2{
+    background-image: var(--car2);
+}
+
+div[class*=car-base].car3{
+    background-image: var(--car3);
+}
+
+div[class*=car-base].car4{
+    background-image: var(--car4);
+}
+
+div.car-tuning.img.car-tuning2_0.car5 {
+    background-image: var(--car5);
+}
+
+div[class*=car-base].car5{
+    background-image: var(--car5);
+}
+
+
+div[class*=car-base].car6{
+    background-image: var(--car6);
+}
+
+div[class*=car-base].car7{
+    background-image: var(--car7);
+}
+
+div[class*=car-base].car8{
+    background-image: var(--car8);
+}
+
+div[class*=car-base].car9{
+    background-image: var(--car9);
+}
+
+div[class*=car-base].car10{
+    background-image: var(--car10);
+}
+
+div[class*=car-base].car11{
+    background-image: var(--car11);
+}
+
+div[class*=car-base].car12{
+    background-image: var(--car12);
+}
+
+div[class*=car-base].car13{
+    background-image: var(--car13);
+}
+
+div[class*=car-base].car14{
+    background-image: var(--car14);
+}
+
+div[class*=car-base].car15{
+    background-image: var(--car15);
+}
+
+div[class*=car-base].car16{
+    background-image: var(--car16);
+}
+
+div[class*=car-base].car17{
+    background-image: var(--car17);
+}
+
+div.car-tuning.img.car-tuning1_0.car17 {
+    background-image: var(--car17);
+}
+
+div[class*=car-base].car18{
+    background-image: var(--car18);
+}
+
+div[class*=car-base].car19{
+    background-image: var(--car19);
+}
+
+div[class*=car-base].car20{
+    background-image: var(--car20);
+}
+
+div[class*=car-base].car21{
+    background-image: var(--car21);
+}
+
+div[class*=car-base].car22{
+    background-image: var(--car22);
+}
+
+div[class*=car-base].car23{
+    background-image: var(--car23);
+}
+
+div[class*=car-base].car24{
+    background-image: var(--car24);
+}
+
+div[class*=car-base].car25{
+    background-image: var(--car25);
+}
+
+div[class*=car-base].car26{
+    background-image: var(--car26);
+}
+
+div[class*=car-base].car27{
+    background-image: var(--car27);
+}
+
+div[class*=car-base].car28{
+    background-image: var(--car28);
+}
+
+div[class*=car-base].car29{
+    background-image: var(--car29);
+}
+
+div[class*=car-base].car30{
+    background-image: var(--car30);
+}
+
+div[class*=car-base].car31{
+    background-image: var(--car31);
+}
+
+div[class*=car-base].car32{
+    background-image: var(--car32);
+}
+
+div[class*=car-base].car33{
+    background-image: var(--car33);
+}
+
+div[class*=car-base].car34{
+    background-image: var(--car34);
+}
+
+div[class*=car-base].car35{
+    background-image: var(--car35);
+}
+
+div[class*=car-base].car36{
+    background-image: var(--car36);
+}
+
+div[class*=car-base].car37{
+    background-image: var(--car37);
+}
+
+div[class*=car-base].car38{
+    background-image: var(--car38);
+}
+
+div[class*=car-base].car39{
+    background-image: var(--car39);
+}
+
+div[class*=car-base].car40{
+    background-image: var(--car40);
+}
+
+div[class*=car-base].car41{
+    background-image: var(--car41);
+}
+
+
+
+
+div[class*=car-base].car42{
+    background-image: var(--car42);
+}
+
+div.car-tuning.img.car-tuning2_0.car42,
+div.car-tuning.img.car-tuning2_1.car42,
+div.car-tuning.img.car-tuning2_2.car42,
+div.car-tuning.img.car-tuning2_3.car42,
+div.car-tuning.img.car-tuning2_4.car42,
+div.car-tuning.img.car-tuning1_0.car42,
+div.car-tuning.img.car-tuning1_1.car42,
+div.car-tuning.img.car-tuning1_2.car42,
+div.car-tuning.img.car-tuning1_3.car42,
+div.car-tuning.img.car-tuning1_4.car42 {
+    background-image: var(--car42);
+}
+
+
+div[class*=car-base].car43{
+    background-image: var(--car43);
+}
+
+div[class*=car-base].car44{
+    background-image: var(--car44);
+}
+
+div[class*=car-base].car45{
+    background-image: var(--car45);
+}
+
+div[class*=car-base].car1019{
+    background-image: var(--car45);
+}
+
+div[class*=car-base].car1018 {
+    background-image: var(--car1018);
+}
+
+div[class*=car-base].car1011 {
+    background-image: var(--car1011);
+}
+
+div[class*=car-base].car1023 {
+    background-image: var(--car1023);
+}
+
+#head > div.minwidth_holyhack > div {
+    max-height: 100px !important;
+}
+
+/* #index #info h4 {
+    background-image:var(--exclamation);
+    background-repeat: no-repeat;
+  } */
+#index #info h4 {
+    background: none !important;
+}
+
+#gamelist > div > div > div > table > tbody > tr > td.status > * > div > span {
+    background-image: var(--clock);
+}
+
+a {
+    transition: 0.2s !important;
+    /* color:rgb(0, 0, 103) !important; */
+}
+
+#head .right .menu a.active {
+    background: none !important;
+}
+
+#players > div > table > tbody > tr > td.name > div > table > tbody > tr > td > i {
+    background-image: var(--trophy1);
+    transform: scale(1.3);
+}
+
+#players,
+body,
+.player,
+.you,
+.gamelist-create,
+.gameblock,
+#head,
+.indexstats-block,
+.col3,
+.minwidth_container,
+#status-block,
+body > div.fade.modal2.in > div > div,
+#gameloading > div > div > div > div,
+#gameloading > div > div > div,
+#gameloading > div > div,
+#gameloading > div,
+#gameloading,
+#gamelist > div:nth-child(1) > div > div > div > div,
+#gamelist > div:nth-child(1) > div > div > div,
+#gamelist > div:nth-child(1) > div > div,
+#gamelist > div:nth-child(1) > div,
+#toplist > div.content-col > table > tbody > tr > td,
+#profile-index > div.col-xs-9 > div.trophy > div:nth-child(1) > div.achieve-item:hover,
+#profile-index > div.col-xs-9 > div.trophy > div:nth-child(2) > div.achieve-item:hover,
+#profile-index > div.col-xs-9 > div.trophy > div:nth-child(3) > div.achieve-item:hover,
+#profile-index > div.col-xs-9 > div.trophy > div:nth-child(4) > div.achieve-item:hover,
+#profile-index > div.col-xs-9 > div.trophy > div:nth-child(5) > div.achieve-item:hover,
+#toplist > div.right-col > div > div > div > div > div,
+#toplist > div.right-col > div > div > div > div,
+#toplist > div.right-col > div > div > div,
+#toplist > div.right-col > div > div,
+#toplist > div.right-col > div,
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.my-car.preview > div.car.ng-isolate-scope,
+#toplist > dd > table > tbody > tr > td,
+#toplist > dd > table > tbody > tr > th.highlight,
+#statistics > div > div > div > div,
+#statistics > div > div > div,
+#statistics > div > div,
+#statistics > div,
+#invite > div > div > div > div > div,
+#invite > div > div > div > div,
+#invite > div > div > div,
+#invite > div > div,
+#invite > div,
+#params > div > div > div > div,
+#params > div > div > div,
+#params > div > div,
+#params > div,
+#play-overall > table > tbody > tr > td > div,
+#play-overall > table > tbody > tr > td,
+#play-overall > table > tbody > tr,
+#play-overall > table > tbody,
+#play-overall > table,
+#play-overall,
+#typeblock > div > div > div > div > div,
+#typeblock > div > div > div > div,
+#typeblock > div > div > div,
+#typeblock > div > div,
+#typeblock > div,
+#toplist > div.content-col > table > tbody > tr > th.highlight,
+.google-visualization-table-tr-odd {
+    background-color: var(--main-blue) !important;
+    /* color: black; */
+}
+
+/* #gamelist > div:nth-child(1) > div > div > div > div > div{
+    background:var(--bgggradient);
+} */
+.google-visualization-table-tr-even,
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(1) > div.col-xs-4 > div {
+    background-color: var(--light-blue) !important;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(1) > div.col-xs-4 > div > h4 {
+    color: black;
+    margin: 0px !important;
+    padding: 5px !important;
+    border: 1px solid var(--dark-blue);
+    background-color: var(--skyblue) !important;
+    border-radius: 4px;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(1) > div.col-xs-4 > div > ul > li {
+    transition: 0.5s;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(1) > div.col-xs-4 > div > ul > li > a {
+    min-width: 185px !important;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(1) > div.col-xs-4 > div > ul > li:hover {
+    background-color: var(--skyblue) !important;
+}
+
+.google-visualization-table-table td {
+    border: 1px solid var(--main-blue) !important;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(2) > div > div {
+    box-shadow: var(--boxshadow);
+}
+
+#index > div.indexstats-block > div > div > div.back,
+#index > div.indexstats-block > div > div > div,
+#index > div.indexstats-block > div > div,
+#index > div.indexstats-block > div,
+#index > div.indexstats-block,
+#index,
+#index > div.indexstats-block > div > div > div > div {
+    border-radius: 12px;
+}
+
+.recent-game {
+    background-color: rgb(242, 242, 242) !important;
+    transition: 0.1s;
+    border-radius: 3px;
+}
+
+#top > div > div > div > div,
+#top > div > div > div,
+#top > div > div,
+#top > div {
+    background: rgb(212, 212, 212) !important;
+}
+
+#top > div > div > div > div > div {
+    background: radial-gradient(circle at 0% 100%, rgb(196, 198, 93) 0%, rgba(212, 212, 212, 0.5) 100%) !important;
+}
+
+#live {
+    background: radial-gradient(circle at 0% 100%, #7498b4 0%, #9DB2BF 100%) !important;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 12px;
+    min-height: 520px;
+    background-color: rgb(200, 200, 200);
+    box-shadow: var(--boxshadow);
+    margin-left: -40px;
+    min-width: 300px;
+    /* font-size:34px !important; */
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#index > div.firstrow.colmask.fourcol > div.col2 > div > a.title {
+    color: rgb(34, 34, 34) !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.216);
+    font-weight: 1000;
+}
+
+#index > div.firstrow.colmask.fourcol > div.col3 > div > a.title {
+    color: #2159e1 !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.216);
+    font-weight: 1000;
+}
+
+#index > div.firstrow.colmask.fourcol > div.col4 > div > a.title {
+    color: #397603 !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.216);
+    font-weight: 1000;
+}
+
+body > div.notification-bar.ng-scope {
+    background-color: rgb(255, 166, 149);
+}
+
+#index > div.firstrow.colmask.fourcol > div.col2 > div > a.title,
+#index > div.firstrow.colmask.fourcol > div.col3 > div > a.title,
+#index > div.firstrow.colmask.fourcol > div.col4 > div > a.title,
+#index > div.firstrow.colmask.fourcol > div.col2 > div > p,
+#index > div.firstrow.colmask.fourcol > div.col3 > div > p,
+#index > div.firstrow.colmask.fourcol > div.col4 > div > p {
+    text-decoration: none !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 0 !important;
+}
+
+#index > div.firstrow.colmask.fourcol > div.col2 > div,
+#index > div.firstrow.colmask.fourcol > div.col3 > div,
+#index > div.firstrow.colmask.fourcol > div.col4 > div {
+    transition: 0.2s !important;
+}
+
+#index > div.firstrow.colmask.fourcol > div.col2 > div > a:nth-child(1) > img,
+#index > div.firstrow.colmask.fourcol > div.col3 > div > a:nth-child(1) > img,
+#index > div.firstrow.colmask.fourcol > div.col4 > div > a:nth-child(1) > img {
+
+    border-radius: 30px !important;
+    opacity: 0;
+}
+
+#index > div.firstrow.colmask.fourcol > div.col2 > div > a:nth-child(1) {
+    background: var(--col1);
+}
+
+#index > div.firstrow.colmask.fourcol > div.col3 > div > a:nth-child(1) {
+    background: var(--col2);
+}
+
+#index > div.firstrow.colmask.fourcol > div.col4 > div > a:nth-child(1) {
+    background: url('https://i.imgur.com/zE8QSgK.png ')
+}
+
+#index > div.firstrow.colmask.fourcol > div.col2 > div:hover,
+#index > div.firstrow.colmask.fourcol > div.col3 > div:hover,
+#index > div.firstrow.colmask.fourcol > div.col4 > div:hover {
+    transform: scale(1.1) !important;
+}
+
+/* ul > li> a.title{
+    color:black !important;
+} */
+#discussing_forum > ul > li > span.time {
+    color: rgb(141, 0, 0) !important;
+}
+
+#discussing_forum > ul > li > a.title2,
+#live > h4 {
+    color: rgb(130, 0, 0) !important;
+    font-weight: 400;
+}
+
+#discussing_forum > ul > li > div {
+    opacity: 0.5;
+}
+
+#discussing_today > ul > li > span.date,
+#discussing_week > ul > li > span.date,
+#discussing_recent > ul > li > span.date {
+    color: rgb(232, 232, 232) !important;
+}
+
+#discussing_forum > ul > li > a.user-link,
+#discussing_forum > ul > li > a.title,
+#discussing_today > ul > li > span.username > a,
+#discussing_recent > ul > li > span.username > a,
+#discussing_week > ul > li > span.username > a {
+    color: rgb(235, 235, 235) !important;
+    transition: 0.13s;
+    /* font-size:18px; */
+}
+
+#discussing_forum > ul > li > a.user-link:before,
+#discussing_forum > ul > li > a.title:before,
+#discussing_today > ul > li > span.username > a:before,
+#discussing_recent > ul > li > span.username > a:before,
+#discussing_week > ul > li > span.username > a:before {
+    display: block;
+    color: rgb(235, 235, 235) !important;
+    width: 100px;
+    height: 17px;
+    left: 0;
+    right: auto;
+    position: relative;
+    transition: 0.13s;
+}
+
+#discussing_today > ul > li > div > a,
+#discussing_week > ul > li > div > a,
+#discussing_recent > ul > li > div > a {
+    color: rgb(0, 0, 0) !important;
+    transition: 0.13s;
+    /* font-size:17px; */
+}
+
+#discussing_forum > ul > li > a.user-link:hover,
+#discussing_today > ul > li > span.username > a:hover#discussing_recent > ul > li > span.username > a:hover {
+    /* color:rgb(255, 255, 255) !important; */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.345) !important;
+    text-decoration: none;
+}
+
+#discussing_forum > ul > li > a.title:hover,
+#discussing_recent > ul > li > span.username > a:hover {
+    /* color:rgb(255, 255, 255) !important; */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.345) !important;
+}
+
+#top_rating > table > tbody > tr > td > a {
+    transition: 0.13s;
+}
+
+#top_rating > table > tbody > tr > td > a:hover {
+    text-shadow: 3px -3px 5px rgba(0, 0, 0, 0.145) !important;
+    transform: scale(2) !important;
+    text-decoration: none;
+}
+
+.recent-game:hover {
+    background-color: rgb(239, 239, 239) !important;
+}
+
+#sw_rating,
+#sw_today,
+#sw_week,
+#sw_success,
+#discussing_forum > div > a {
+    /* background-color:rgba(255, 255, 255, 0.339); */
+    padding: 6px;
+    /* font-size:15px; */
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+#sw_rating:hover,
+#sw_today:hover,
+#sw_week:hover,
+#sw_success:hover,
+#discussing_forum > div > a:hover {
+    background-color: rgba(255, 255, 255, 0.23);
+}
+
+#switch_with_icons,
+#discussing_forum > div,
+#discussing_week > div,
+#discussing_today > div,
+#discussing_recent > div {
+    display: flex;
+    font-size: 18px !important;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.on {
+    background-color: rgb(170, 0, 0) !important;
+    border-radius: 5px;
+}
+
+/* #speedpanel{
+    opacity:0;
+} */
+#waiting_timeout {
+    opacity: 1;
+}
+
+.gameblock,
+.typetext {
+    background-color: rgb(179, 179, 179);
+}
+
+#typeblock > div > div > div > div > .rc,
+#content > div > div > div.gamelist-create > div.r.tl > div > div > div > .rc {
+    background: var(--main-blue) !important;
+}
+
+.rc {
+    background: linear-gradient(145deg, rgb(227, 227, 227) 0%, rgba(200, 200, 200, 1) 100%) !important;
+}
+
+.rc,
+#status-block,
+#status,
+.go {
+    border-radius: 12px;
+    /* border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; */
+    background-color: rgb(179, 179, 179);
+    box-shadow: var(--boxshadow)
+}
+
+#content > div > div > div.gamelist-create > div.r.tl > div > div > div > div {
+    box-shadow: none;
+}
+
+
+#top > div > div > div > div > div {
+    min-height: 520px;
+}
+
+#typeblock {
+    width: 970px !important;
+    min-width: 78vw;
+}
+
+#typeblock > div > div > div > div > div {}
+
+#inputtextblock > textarea {
+    max-width: 703.5px !important;
+    min-width: 25vw !important;
+    background-color: var(--skyblue) !important;
+    font-family: arial !important;
+}
+
+
+#entertip {
+    display: none;
+}
+
+#inputtextblock > input {
+    min-width: 76vw;
+}
+
+#typetext > img {
+    cursor: none !important;
+}
+
+#inputtext {
+    width: 920px !important;
+    box-shadow: none !important;
+    color: black !important;
+    font-size: 25px;
+    transition: 0 !important;
+}
+
+.gameblock {
+    width: 970px !important;
+    min-width: 78vw;
+}
+
+/* background-color:rgba(83, 94, 255, 0.439); */
+/* background-color: var(--typefocus-color); */
+/* .highlight {
+
+    text-decoration: none !important;
+    color: rgb(124, 0, 0) !important;
+
+} */
+#typefocus {
+    /* color: var(--font-color) !important; */
+}
+
+tr {
+    transition: 0.2s;
+}
+
+#totalGamesCounter .title {
+    color: #930000 !important;
+}
+
+*/ #stats-block > table > tbody > tr:nth-child(1) > td:nth-child(2),
+#stats-block > table > tbody > tr:nth-child(1) > td:nth-child(5),
+#stats-block > table > tbody > tr:nth-child(2) > td:nth-child(2),
+#stats-block > table > tbody > tr:nth-child(2) > td:nth-child(4) {
+    font-weight: 600;
+    color: rgb(138, 0, 0) !important;
+}
+
+#totalGamesCounter .title,
+#totalGamesCounter > div.value,
+#totalGamesCounter {
+    background-color: var(--light-blue) !important;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.sidebar.ng-scope > ul > li > a {
+    transition: 0.2s;
+}
+
+tr > td.enter > div > a {
+    transition: 0.2s !important;
+}
+
+
+
+
+.hiddentext {
+    color: white;
+    background-color: black;
+}
+
+#reformal_tab,
+#reformal_tab > img {
+    display: none !important;
+}
+
+#beforefocus {
+    color: rgb(3, 0, 65);
+    opacity: 0.8;
+    letter-spacing: -2px;
+    /* -webkit-text-stroke: 0.9px #ffee36; */
+    /* animation-name: hello;
+animation-duration:1s;
+animation-iteration-count: infinite;
+transition: opacity 1s; */
+    /* opacity:0.5; */
+    /* text-shadow:0 0 8px white; */
+    cursor: none;
+}
+
+#afterfocus,
+#beforefocus,
+#typefocus {
+    letter-spacing: var(--letterSpacing);
+    font-weight: var(--fontWeight);
+}
+
+#afterfocus {
+    color: rgb(0, 0, 0) !important;
+    cursor: none;
+}
+
+/* @keyframes hello {
+    0%{nputtext
+    color:rgb(149, 0, 0);
+    }
+    50%{
+        color:rgb(0, 0, 141);
+    }
+    100%{
+        color:rgb(148, 0, 0);
+    } */
+/* } */
+.back {
+    background-color: #151515;
+    opacity: 0.7 !important;
+    animation-name: bpm;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+/* @keyframes bpm {
+    from {
+        background-color:#000000;
+
+    }
+    50% {
+        background-color:#3a3a3a;
+
+    }
+    to {
+        background-color:#000000;
+
+    }
+} */
+a {
+    transform: none !important;
+}
+
+.comments,
+.profile-nav,
+#content > div > div > div > div > div > div.profile-content.ng-scope > div > ul > li.active > a,
+body > div.fade.modal2.in > div > div > div,
+body > div.fade.modal2.in > div > div body > div.fade.modal2.in > div,
+/* body > div.fade.modal2.in, */
+#profile-index > div.col-xs-9 > div.bio.ng-scope > div,
+body > div.fade.modal2.in > div > div > div > div.modal2-body.ng-scope.ng-binding,
+.modal2-header,
+#recent-games li > a,
+.profile-car .my-car .car,
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.my-car.me > div.car.ng-isolate-scope {
+    background-color: var(--light-blue) !important;
+}
+
+#content > div > div > div.gamelist-create > div.r.tl > div > div > div > div,
+#content > div > div > div.gamelist-create > div.r.tl > div > div > div,
+#content > div > div > div.gamelist-create > div.r.tl > div > div,
+#content > div > div > div.gamelist-create > div.r.tl > div,
+#content > div > div > div.gamelist-create > div.r.tl,
+#content > div > div > div.gamelist-create,
+#sortable,
+#speedpanel,
+#status-block,
+#status,
+#invite > div > div > div > div,
+#invite > div > div > div,
+#invite > div > div,
+#invite > div,
+#invite,
+#params > div > div > div > div,
+#params > div > div > div,
+#params > div > div,
+#params > div,
+#params,
+#statistics > div > div > div > div > div,
+#statistics > div > div > div > div,
+#statistics > div > div > div,
+#statistics > div > div,
+#statistics > div,
+#statistics,
+#gameloading > div > div > div > div,
+#gameloading > div > div > div,
+#gameloading > div > div,
+#gameloading > div,
+#gameloading > div > div > div > div,
+#gameloading > div > div > div > div > div > div,
+#gameloading > div > div > div > div > div,
+#gameloading {
+    border-radius: 12px !important;
+}
+
+#content > div > div > div.gamelist-create {
+    box-shadow: var(--boxshadow);
+    border-radius: 12px !important;
+}
+
+#typeblock > div > div > div > div > div {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#recent-games,
+#recent-games-container {
+    background-color: var(--main-blue) !important;
+}
+
+#recent-games {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 8px !important;
+    min-width: 400px;
+}
+
+#recent-games > li > a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+}
+
+#recent-games li > a {
+    border-radius: 5px;
+    /* box-sizing:border-box;
+    min-height:55px;*/
+    /*display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: var(--boxshadow);
+}
+
+#gamelist td.enter a.competition {
+    display: block !important;
+    box-sizing: border-box !important;
+    width: 60px !important;
+    height: 60px !important;
+    background: var(--enter-x) !important;
+    padding-left: 60px !important;
+    image-rendering: crisp-edges !important;
+}
+
+#gamelist td.enter a {
+    display: block !important;
+    box-sizing: border-box !important;
+    width: 60px !important;
+    height: 60px !important;
+    background: var(--enter-normal) !important;
+    padding-left: 60px !important;
+    image-rendering: crisp-edges !important;
+    transition: 0.4s !important;
+    background-color: transparent !important;
+}
+
+#gamelist td.enter a.competition:hover {
+    background-color: transparent !important;
+    filter: brightness(1.1) !important;
+}
+
+#gamelist td.enter a:hover {
+    display: block !important;
+    box-sizing: border-box !important;
+    /* filter: brightness(1.1) !important; */
+    background-color: rgb(0, 255, 0) !important;
+}
+
+#gamelist-active {
+    border-top: 17px dotted var(--light-blue) !important;
+    padding-top: 3vh !important;
+    margin-top: 3vh !important;
+    /* background-color: var(--dark-blue); */
+}
+
+
+div#gamelist .remain span,
+div#gamelist .gray_timer span {
+    /* background: none !important; */
+}
+
+#content > div > div > div.gamelist-create > div.r.tl > div > div > div,
+#content > div > div > div.gamelist-create > div.r.tl > div > div,
+#content > div > div > div.gamelist-create > div.r.tl > div {
+    background-color: var(--main-blue) !important;
+}
+
+#status {
+
+    background: transparent url('https://i.imgur.com/kJSlpcA.png') no-repeat 0px 0px !important;
+    /* background-color: var(--light-blue) !important; */
+    box-shadow: none !important;
+}
+
+.profile-messages .messages-content .messages-respondent .dialog .dialog-write .edit,
+.profile-messages .messages-content .messages-respondent .dialog .dialog-write .preview {
+    padding: 0 !important;
+}
+
+#status.ready {
+    background-position: 0 -90px !important;
+}
+
+#status.steady {
+    background-position: 0 -180px !important;
+}
+
+#status.go {
+    background-position: 0 -270px !important;
+}
+
+#head::before {
+    background: var(--main-blue) !important;
+}
+
+/* .hide-bar,
+.dummy, */
+.chat-container,
+#chat-content,
+#chat-general,
+#chat-general > table,
+#chat-general > table > tbody > tr > td.messages > div > div > ins,
+.chat-header,
+#chat-general > table > tbody > tr > td.messages > div > div > div,
+#chat-general > table > tbody > tr > td.messages > div > div #chat-general > table > tbody > tr > td.messages > div #chat-general > table > tbody > tr > td.messages,
+#chat-general > table > tbody > tr,
+#chat-general > table > tbody,
+#chat-general > table > tbody > tr > td.messages > div > div > div > p,
+.post {
+    background: var(--main-blue) !important;
+}
+
+#recent-games li > a:hover {
+    background-color: var(--skyblue) !important;
+}
+
+body > div.fade.modal2.in > div > div > div > div.modal2-body.ng-scope.ng-binding,
+body > div.fade.modal2.in > div > div > div > div.modal2-header {
+    /* background-color:var(--skyblue) !important###;  */
+}
+
+img {
+    border-radius: 0 !important;
+}
+
+
+#logo > a > img {
+    opacity: 0;
+}
+
+#speedpanel > img {
+    display: none;
+    opacity: 0;
+}
+
+#speedpanel {
+    background: radial-gradient(ellipse at 100% 100%, rgb(79, 100, 122) 0%, rgba(223, 223, 223, 1) 66%, rgba(223, 223, 223, 1) 100%) !important;
+    border: none !important;
+}
+
+#head #logo {
+    padding: 0 !important;
+    margin: 20px 0 0 20px !important;
+}
+
+#logo {
+    /* background:url('https://i.imgur.com/2hPlGHl.png') no-repeat; */
+    background: var(--kg-img) no-repeat;
+    background-size: 276px 84px;
+    min-width: 276px !important;
+    min-height: 84px !important;
+    margin: 20px;
+    background-color: rgb(0, 40, 75);
+    margin-bottom: 0;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-fill-mode: forwards !important;
+    animation-iteration-count: infinite;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#play-right > p:nth-child(9),
+#play-right > p:nth-child(10) {
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#play-right > p:nth-child(10):hover {
+    background-color: var(--light-blue);
+}
+
+
+#logo:hover {
+    background-color: rgb(255, 255, 255);
+    /* transform:scalergb(212, 27, 209)
+    /* animation-duration: 1s; */
+}
+
+/* 
+@keyframes logo {
+
+    100%,
+    0% {
+        background-color: rgb(255, 128, 0);
+    }
+
+    50% {
+        background-color: rgb(255, 0, 0);
+    }
+
+} */
+#errors_tab {
+    background: rgba(255, 255, 255, 0) !important;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.328) !important;
+    border-radius: 6px;
+}
+
+#content > div > div > div > div > div.profile-header {
+    background: linear-gradient(90deg, rgba(212, 212, 212, 1) 0%, rgba(212, 212, 212, 1) 23%, rgba(103, 163, 215, 1) 84%, rgb(103, 163, 215) 100%) !important;
+    border-radius: 5px;
+    box-shadow: var(--boxshadow);
+}
+
+#content > div > div > div > div > div.profile-header {}
+
+#profile-index > div.col-xs-9 > div.bio.ng-scope > div > div {
+    background-color: var(--light-blue) !important;
+}
+
+#profile-index > div.col-xs-9 > div.trophy > div > div.achieve-item {
+    z-index: 2;
+}
+
+#content > div > div > div > div > div.profile-header.fixed {
+    z-index: 52;
+}
+
+.profile-root .profile-header .mini-nav ul li .icon-icomoon {
+    color: var(--dark-blue) !important;
+}
+
+#profile-index > div.col-xs-3 > div > div > div {
+    transition: 0.2s;
+    background-color: rgb(108, 171, 226) !important;
+    margin: 7px 0 !important;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.my-car.me > div.car.ng-isolate-scope > div > div.car-tuning,
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.my-car.me > div.car.ng-isolate-scope > div > div,
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.my-car.preview > div.car.ng-isolate-scope > div > div.car-tuning.img,
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.my-car.preview > div.car.ng-isolate-scope > div > div.img {
+    margin: 0 !important;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.shop.my > div > button {
+    margin-left: 33px !important;
+    color: var(--dark-blue) !important;
+    letter-spacing: 1px !important;
+}
+
+/* #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div:hover{
+    background-color:rgb(145, 192, 234) !important;
+
+} */
+#profile-index > div.col-xs-9 > div.journal.ng-scope {
+    /* box-shadow:0px 0px 2px 3px rgba(255, 255, 255, 0.656) inset !important; */
+    padding: 3px;
+    border: 3px solid var(--light-blue);
+    border-radius: 8px;
+}
+
+form,
+textarea,
+input,
+button {
+    /* background: var(--light-blue) !important; */
+    border-radius: 3px;
+    border: 1px solid var(--main-blue) !important;
+    padding: 3px !important;
+    /* transition:0.2s; */
+}
+
+textarea {
+    background: var(--skyblue) !important;
+}
+
+.messages,
+.messages-content {
+    background-color: var(--main-blue) !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div > div.dialog-write > form > button {
+    background-color: var(--main-blue) !important;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div > div.dialog-write > form > button:hover {
+    background-color: var(--skyblue) !important;
+    color: rgb(0, 0, 0);
+}
+
+.messages-border,
+#chat-general {
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: var(--main-blue) !important;
+    background-color: var(--main-blue) !important;
+}
+
+#chat-general > table > tbody > tr > td.messages > div > div,
+#chat-general > table > tbody > tr > td.messages > div > div > div,
+#chat-header {
+    background: var(--main-blue) !important;
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 5px !important;
+}
+
+#chat-general > table > tbody > tr > td.userlist > div.userlist-content {
+    border-right: 2px ridge var(--dark-blue) !important;
+    border-bottom: 2px ridge var(--dark-blue) !important;
+}
+
+#chat-general > table > tbody > tr > td.messages {
+    border-bottom: 2px ridge var(--dark-blue) !important;
+    border-left: 2px ridge var(--dark-blue) !important;
+}
+
+input:hover {
+    background: var(--skyblue);
+}
+
+select {
+    background: var(--skyblue);
+}
+
+#profile-index > div.col-xs-9 > div.journal.ng-scope > ng:include > div.write.ng-scope.ng-isolate-scope > div.post > form > app:edit-preview,
+#profile-index > div.col-xs-9 > div.journal.ng-scope > ng:include > div.write.ng-scope.ng-isolate-scope > div.post > form {
+    background: red !important;
+}
+
+#profile-index > div.col-xs-9 > div.journal.ng-scope > h3,
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > h3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > h3 {
+    padding: 15px 0 0 0;
+}
+
+#hiddentext {
+    background-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+
+
+.messages-contacts,
+.dialog {
+    background: var(--light-blue);
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div {
+    padding-left: 33px;
+    margin: auto 10px auto 20px;
+}
+
+.contact {
+    margin-left: 17px;
+    transition: 0.2s !important;
+}
+
+.contact:hover {
+    background: var(--light-blue);
+    /* transform: scale(1.02); */
+    box-shadow: -3px -3px 5px 3px inset rgba(0, 0, 0, 0.043);
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div > div.dialog-content > div > div > div > div {
+    background: none !important;
+}
+
+.dropmenu {
+    background: var(--light-blue) !important;
+    min-width: 310px !important;
+}
+
+.dialog-header {
+    background: var(--skyblue) !important;
+    border: 1px solid var(--main-blue);
+}
+
+body > div.userpanel.logged.pinned > div.user-block > table > tbody > tr > td:nth-child(5) > div.dropmenu.ng-hide > div.col1 > ul > li.unread_mail.ng-scope > span {
+    color: black !important;
+}
+
+/* body > div.userpanel.logged{
+    background: linear-gradient(0deg, rgba(255, 255, 0, 0) 0%, rgba(199, 199, 199, 0.87) 30%, rgb(83, 83, 83) 100%);
+    border:none !important;
+} */
+#stats-block > table > tbody > tr > td {
+    /* color:black !important; */
+}
+
+#profile-index > div.col-xs-9 > div.journal.ng-scope > ng:include > div {
+    background-color: var(--main-blue) !important;
+}
+
+.unread {
+    border-radius: 5px;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > h3 > button {
+    background-color: var(--skyblue) !important;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > h3 > button:hover {
+    background-color: rgba(255, 255, 255, 0.835) !important;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div.contact.ng-scope.unread {
+    /* background-color: var(--light-blue) !important; */
+    animation-name: unread;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+}
+
+@keyframes unread {
+    from {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div > div.dialog-header > div.controls > a {
+    color: black !important;
+}
+
+.profile-messages .messages-content .messages-respondent .dialog .dialog-header .controls .btn {
+    padding: 5px !important;
+    color: black !important;
+}
+
+.messages-respondent {
+    background-color: var(--main-blue) !important;
+}
+
+#profile-index > div.col-xs-9 > div.trophy > div:nth-child(1) > div.achieve-item > img {
+    margin-left: -35px;
+}
+
+#profile-index > div.col-xs-9 > div.bio.ng-scope > h3 {
+    border-top: 3px dotted var(--dark-blue);
+}
+
+div.post.ng-scope.post-hidden {
+    background-color: rgba(0, 110, 255, 0.15) !important;
+}
+
+/* @keyframes unread {
+    0% {
+        background:red!important
+    }
+    50% {
+        background-color:var(--skyblue)!important
+    }
+    100% {
+        background-color:var(--skyblue)!important
+    }
+} */
+.stats {
+    border: 0 !important;
+    min-width: 250px !important;
+    padding: 0 20px !important;
+}
+
+#profile-index > div.col-xs-3 > div > div > div {
+    padding-left: 0 !important;
+    padding: 0 25px;
+}
+
+#chat-general > table > tbody > tr > td.messages > div > table > tbody > tr > th > form > input,
+input[type=text] {
+    background-color: white !important;
+}
+
+.chat .messages div {
+    border: 0 !important;
+}
+
+input[type=submit],
+input[type=button],
+#submit_btn {
+    padding: 5px !important;
+    color: black !important;
+    background-color: var(--skyblue) !important;
+    border: 0 !important;
+}
+
+#create > dl > dd > div.buttons > input {
+    padding: 0 !important;
+    transition: 0 !important;
+    border-radius: 11px;
+}
+
+.post {
+    background-color: var(--light-blue) !important;
+    border: 0px;
+}
+
+.posth {
+    background-color: var(--skyblue) !important;
+    border: 0px;
+}
+
+#posts-list > form {
+    border: 0px !important;
+}
+
+.highlight_error {
+    /* background: rgb(238, 124, 153) !important; */
+    color: white !important;
+    font-weight: 400;
+    transition: 0 !important;
+}
+
+.error {
+    background: rgb(173, 173, 173) !important;
+    transition: 0 !important;
+}
+
+#inputtext.highlight_error {
+    background: rgb(173, 173, 173) !important;
+    transition: 0 !important;
+
+    font-weight: 400;
+}
+
+#inputtext.error {
+    background: rgb(255, 136, 125) !important;
+    /* color: white !important; */
+    /* transition:0.1s; */
+}
+
+
+#speedpanel-canvas {
+    box-sizing: border-box !important;
+    padding-left: 262px !important;
+    height: 87px !important;
+    width: 262px !important;
+    background: var(--speedpanel) !important;
+    background-size: 87px 262px;
+}
+
+/* #speedpanel > canvas,
+#speedpanel-canvas,
+#status-block > div:nth-child(2) > canvas,
+#sortable > div:nth-child(1) > div:nth-child(2) > canvas,
+#play-overall > table > tbody > tr > td > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > canvas{
+    background:var(--speedpanel);
+    background-position: revert !important;
+} */
+/* background-image:var(--speedpanel); */
+body > div.modal2-backdrop.fade.in {
+    opacity: 0.3 !important;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(1) > div.col-xs-8 > div > div > div:nth-child(1) > div > svg > rect {
+    opacity: 0;
+    /* border-radius:12px !important; */
+}
+
+.profile-root .journal .comments {
+    margin-left: 0 !important;
+    padding-left: 52px !important;
+    background: var(--light-blue) !important;
+}
+
+#newblog > div > div {
+    background: var(--main-blue) !important;
+}
+
+#newblog > div:nth-child(4) > div > div.title > a {
+    margin-bottom: 30px;
+}
+
+#content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div {
+    padding-left: 0 !important;
+    /* margin: 0 !important; */
+    /* transform: translateX(30px) !important; */
+    max-width: 698px;
+}
+
+#profile-index > div.col-xs-9 > div.trophy > div:nth-child(1) > div.achieve-item > img {
+    padding-left: 33px;
+}
+
+#profile-index > div.col-xs-9 > div.bio.ng-scope > div {
+    box-shadow: none !important;
+}
+
+#profile-index .bio .content .clickable {
+    /* transform:translateX(-15px); */
+}
+
+#toplist > div.content-col > ul > li.active {
+    background: none;
+    background-color: rgb(0, 40, 75) !important;
+    color: rgb(231, 231, 231);
+    padding: 10px;
+    border-bottom: 3px solid rgb(255, 119, 0);
+}
+
+#head > div.minwidth_holyhack > div {
+    /* background-image: linear-gradient(225deg,
+            hsl(208deg 28% 64%) 0%,
+            hsl(209deg 26% 66%) 11%,
+            hsl(209deg 24% 68%) 22%,
+            hsl(209deg 22% 70%) 33%,
+            hsl(209deg 20% 72%) 44%,
+            hsl(210deg 17% 75%) 56%,
+            hsl(0, 0%, 83%) 67%,
+            hsl(0deg 0% 83%) 100%); */
+    background: radial-gradient(circle at 100% 100%, rgb(69, 103, 141) 0%, rgba(212, 212, 212, 1) 69%, rgba(212, 212, 212, 1) 100%);
+    /* border-bottom: 3px solid rgb(0, 40, 75); */
+}
+
+#head > div.minwidth_holyhack > div::after {
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(270deg,
+    hsl(28deg 100% 50%) 0%,
+    hsl(21deg 96% 62%) 9%,
+    hsl(19deg 92% 66%) 18%,
+    hsl(18deg 86% 70%) 27%,
+    hsl(17deg 79% 72%) 36%,
+    hsl(16deg 72% 74%) 45%,
+    hsl(15deg 63% 76%) 54%,
+    hsl(15deg 53% 78%) 63%,
+    hsl(14deg 42% 79%) 72%,
+    hsl(14deg 29% 81%) 81%,
+    hsl(13deg 15% 82%) 91%,
+    hsl(0deg 0% 83%) 100%);
+    right: 0%;
+    top: 100px;
+    width: 70vw;
+    height: 3px;
+}
+
+#head > div.minwidth_holyhack > div > div.right > div.menu > a {
+    background-color: var(--pale) !important;
+    color: white;
+    transition: 0.2s;
+    padding: 6px;
+    text-decoration: none !important;
+    border-bottom: 3px solid var(--orange);
+    /* border-radius: 6px; */
+}
+
+#head > div.minwidth_holyhack > div > div.right > div.menu > a:hover {
+    background-color: rgb(40, 56, 90) !important;
+}
+
+#toplist > div.left-col > ul > li.active {
+    text-align: center;
+}
+
+#toplist ul.mode li.active span {
+    background: none !important;
+    max-width: 166px;
+}
+
+#toplist > div.left-col > ul > li.active > span {
+    color: white !important;
+}
+
+#toplist > div.left-col > ul > li.active {
+    background: none;
+    background-color: var(--deep) !important;
+    color: rgb(231, 231, 231) !important;
+    padding: 5px;
+    border-bottom: 3px solid var(--orange);
+    padding-left: 22px;
+    font-size: 17px;
+}
+
+#head > div.minwidth_holyhack > div > div.right > div.menu > a.active,
+#head > div.minwidth_holyhack > div > div.right > div.menu > a.active.real {
+    background: none;
+    /* background: radial-gradient(ellipse at 0% 100%, rgba(227, 124, 36, 1) 0%, rgba(255, 255, 0, 1) 100%) !important; */
+    /* background: radial-gradient(ellipse at 0% 100%, rgb(0, 40, 75) 20%, var(--pale) 100%) !important; */
+    background-color: var(--deep) !important;
+    border-bottom: 3px solid var(--orange);
+    padding: 8px 7px 0px 7px;
+    /* border-radius:6px; */
+    /* box-shadow: var(--boxshadow); */
+    color: rgb(231, 231, 231);
+    font-weight: 1000;
+    /* transform: translateY(-4px) !important; */
+    transform: translateY(3px) !important;
+    z-index: 50;
+}
+
+#head > div.minwidth_holyhack > div > div.right > div.menu > a.active:hover,
+#head > div.minwidth_holyhack > div > div.right > div.menu > a.active.real:hover,
+#toplist > div.content-col > ul > li.active {
+    /* background: radial-gradient(ellipse at 0% 100%, rgba(227, 124, 36, 1) 0%, rgba(255, 255, 0, 1) 100%) !important; */
+    /* filter: brightness(1.2) !important; */
+    color: rgb(255, 255, 255);
+}
+
+.profile-root .profile-content .nav-top li a {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: blue !important;
+    /* -webkit-text-stroke: 1px #222222; */
+    text-shadow: 1px 2px 3px rgb(145, 145, 145);
+    font-weight: 1000;
+}
+
+#forums-list > table > tbody > tr.header {
+    margin: 5px !important;
+}
+
+#forums-list > table > tbody > tr > td.last-post > a.go {
+    box-shadow: none !important;
+    background: var(--main-blue) !important;
+}
+
+#forums-list > table > tbody > tr {
+    border: var(--borderforum);
+}
+
+#forums-list > table > tbody > tr > td {
+    border-top: 1px solid rgb(180, 180, 180) !important;
+    border-bottom: 1px solid rgb(180, 180, 180) !important;
+    /* box-shadow:0 5px 13px 1px inset rgb(171, 171, 171);
+transition:0.5s; */
+    /* background-color: var(--light-blue); */
+}
+
+#forums-list > table > tbody > tr {
+    transition: 0.2s;
+}
+
+#forums-list > table > tbody > tr:hover {
+    background-color: var(--light-blue);
+}
+
+#forums-list > table > tbody > tr.header {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.search {
+    background-color: var(--light-blue) !important;
+    border: none !important;
+    border-radius: 4px;
+}
+
+#content > div > div > div.search > form > input {
+    background-color: var(--skyblue) !important;
+}
+
+#forums-list > table > tbody > tr.header:hover {
+    background-color: var(--main-blue);
+}
+
+.offset_down {
+    color: rgb(166, 0, 0) !important;
+}
+
+.offset_up {
+    color: green !important;
+}
+
+#profile-index > div.col-xs-3 > div > div > div {
+    margin: 5px 0 !important;
+}
+
+#profile-index > div.col-xs-9 > div.bio.ng-scope > div > div {
+    margin-left: 0 !important;
+    border-left: none !important;
+}
+
+#profile-index > div.col-xs-9 > div.bio.ng-scope > div > div > div.ng-scope,
+#profile-index > div.col-xs-9 > div.bio.ng-scope > div > div > div.clickable {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+#content > div > div > div > div > div.scroll-to-top.ng-animate.fixed {
+    color: var(--dark-blue) !important;
+}
+
+#content > div > div > div > div > div.scroll-to-top.ng-animate.fixed:hover {
+    background-color: var(--transparent-white) !important;
+}
+
+#footer {
+    background: var(--light-blue) !important;
+}
+
+@media screen and (max-width: 1098px) {
+    #recent-games > li > a {
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #recent-games {
+        position: relative;
+    }
+
+    #head > div.minwidth_holyhack > div > div.right {
+        padding-top: 0 !important;
+    }
+
+    #top_rating > table > tbody > tr > td.date {
+        overflow: hidden;
+        max-width: 20px;
+    }
+
+    #head > div.minwidth_holyhack > div > div.right > div.login-block {
+        display: none;
+    }
+
+    #index > div.indexstats-block > div > div > div > div {
+        display: none;
+    }
+
+    #index > div.firstrow.colmask.fourcol > div.col2,
+    #index > div.firstrow.colmask.fourcol > div.col3,
+    #index > div.firstrow.colmask.fourcol > div.col4 {
+        z-index: 200;
+        padding-bottom: 25px;
+    }
+}
+
+
+
+/* КЛАВОПЕДИЯ */
+#mw-head,
+#mw-head-base,
+#content,
+div#content {
+    background-color: var(--main-blue) !important;
+}
+
+#toc,
+.toc,
+.mw-warning,
+#mw-content-text > center > table > tbody > tr > td,
+#mw-content-text > center > table,
+blockquote,
+#mw-normal-catlinks {
+    background-color: var(--light-blue) !important;
+}
+
+#ca-nstab-main > span > a,
+#ca-talk > span > a,
+#ca-view > span > a,
+#ca-edit > span > a,
+#ca-history > span > a,
+#p-namespaces > ul {
+    padding-top: 11px !important;
+    transition: 0.5s;
+}
+
+#searchInput {
+    background-color: var(--light-blue) !important;
+    transition: 0.5s;
+}
+
+#ca-nstab-main > span > a:hover,
+#ca-talk > span > a:hover,
+#ca-view > span > a:hover,
+#ca-edit > span > a:hover,
+#ca-history > span > a:hover,
+#searchInput:hover {
+    background-color: var(--skyblue) !important;
+}
+
+
+#RCLSettings > svg:nth-child(1) {
+    margin: 5px !important;
+}
+}
+
+@-moz-document url-prefix("https://example.com/") {
+
+}
