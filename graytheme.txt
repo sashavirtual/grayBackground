@@ -1,45 +1,12 @@
 @-moz-document domain("klavogonki.ru") {
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Jost&family=Kablammo&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
 
 #speedpanel #speed-label {
     font-family: monospace;
 }
-.ownbanner-back {
-    display: none;
-}
+
 #speedpanel #errors-label {
     font-family: monospace;
-}
-
-* {
-    /* display:none !important;
-    opacity:0 !important; */
-    /* transform:scale(1.01); */
-}
-
-/* #typetext > span >span,
-#beforefocus,
-#afterfocus,
-#typefocus,
-#inputtext */
-/* #index > div.secondrow.colmask.threecol233 > div.col1{
-    display:none;
-} */
-#index > div.secondrow.colmask.threecol233 {
-    /* display:flex;
-    width:80vw;
-flex-direction:row;
-justify-content: right;
-align-items: center;
-flex-wrap: wrap; */
-}
-
-#index > div.secondrow.colmask.threecol233 > div.col2,
-#index > div.secondrow.colmask.threecol233 > div.col3 {
-    /* max-width:33vw;
-    min-width:410px;
-    height:560px;
-    width:33vw !important; */
 }
 
 a,
@@ -49,7 +16,7 @@ a,
 #discussing_week > div > span,
 #discussing_forum > div > span,
 #profile-index > div.col-xs-3 > div > div > div {
-    font-family: cursive;
+    font-family:'Trebuchet MS', sans-serif
 }
 
 #discussing_today > div > span,
@@ -149,14 +116,18 @@ a,
     --fontWeight: 400 !important;
 }
 
+.ownbanner-back {
+    display: none;
+}
+
 /* --light-blue:rgb(226,226,226);
   --main-blue:rgb(212,212,212);
   --skyblue:rgb(249, 249, 249); */
-div[class*=car-base].car1{
+div[class*=car-base].car1 {
     background-image: var(--car1);
 }
 
-#car1>tbody>tr>td>.imgcont>.img .car1 {
+#car1 > tbody > tr > td > .imgcont > .img .car1 {
     background-image: var(--car1);
 }
 
@@ -168,15 +139,15 @@ div[class*=car-base].car1{
     background: var(--main-blue) !important;
 }
 
-div[class*=car-base].car2{
+div[class*=car-base].car2 {
     background-image: var(--car2);
 }
 
-div[class*=car-base].car3{
+div[class*=car-base].car3 {
     background-image: var(--car3);
 }
 
-div[class*=car-base].car4{
+div[class*=car-base].car4 {
     background-image: var(--car4);
 }
 
@@ -184,56 +155,56 @@ div.car-tuning.img.car-tuning2_0.car5 {
     background-image: var(--car5);
 }
 
-div[class*=car-base].car5{
+div[class*=car-base].car5 {
     background-image: var(--car5);
 }
 
 
-div[class*=car-base].car6{
+div[class*=car-base].car6 {
     background-image: var(--car6);
 }
 
-div[class*=car-base].car7{
+div[class*=car-base].car7 {
     background-image: var(--car7);
 }
 
-div[class*=car-base].car8{
+div[class*=car-base].car8 {
     background-image: var(--car8);
 }
 
-div[class*=car-base].car9{
+div[class*=car-base].car9 {
     background-image: var(--car9);
 }
 
-div[class*=car-base].car10{
+div[class*=car-base].car10 {
     background-image: var(--car10);
 }
 
-div[class*=car-base].car11{
+div[class*=car-base].car11 {
     background-image: var(--car11);
 }
 
-div[class*=car-base].car12{
+div[class*=car-base].car12 {
     background-image: var(--car12);
 }
 
-div[class*=car-base].car13{
+div[class*=car-base].car13 {
     background-image: var(--car13);
 }
 
-div[class*=car-base].car14{
+div[class*=car-base].car14 {
     background-image: var(--car14);
 }
 
-div[class*=car-base].car15{
+div[class*=car-base].car15 {
     background-image: var(--car15);
 }
 
-div[class*=car-base].car16{
+div[class*=car-base].car16 {
     background-image: var(--car16);
 }
 
-div[class*=car-base].car17{
+div[class*=car-base].car17 {
     background-image: var(--car17);
 }
 
@@ -241,106 +212,106 @@ div.car-tuning.img.car-tuning1_0.car17 {
     background-image: var(--car17);
 }
 
-div[class*=car-base].car18{
+div[class*=car-base].car18 {
     background-image: var(--car18);
 }
 
-div[class*=car-base].car19{
+div[class*=car-base].car19 {
     background-image: var(--car19);
 }
 
-div[class*=car-base].car20{
+div[class*=car-base].car20 {
     background-image: var(--car20);
 }
 
-div[class*=car-base].car21{
+div[class*=car-base].car21 {
     background-image: var(--car21);
 }
 
-div[class*=car-base].car22{
+div[class*=car-base].car22 {
     background-image: var(--car22);
 }
 
-div[class*=car-base].car23{
+div[class*=car-base].car23 {
     background-image: var(--car23);
 }
 
-div[class*=car-base].car24{
+div[class*=car-base].car24 {
     background-image: var(--car24);
 }
 
-div[class*=car-base].car25{
+div[class*=car-base].car25 {
     background-image: var(--car25);
 }
 
-div[class*=car-base].car26{
+div[class*=car-base].car26 {
     background-image: var(--car26);
 }
 
-div[class*=car-base].car27{
+div[class*=car-base].car27 {
     background-image: var(--car27);
 }
 
-div[class*=car-base].car28{
+div[class*=car-base].car28 {
     background-image: var(--car28);
 }
 
-div[class*=car-base].car29{
+div[class*=car-base].car29 {
     background-image: var(--car29);
 }
 
-div[class*=car-base].car30{
+div[class*=car-base].car30 {
     background-image: var(--car30);
 }
 
-div[class*=car-base].car31{
+div[class*=car-base].car31 {
     background-image: var(--car31);
 }
 
-div[class*=car-base].car32{
+div[class*=car-base].car32 {
     background-image: var(--car32);
 }
 
-div[class*=car-base].car33{
+div[class*=car-base].car33 {
     background-image: var(--car33);
 }
 
-div[class*=car-base].car34{
+div[class*=car-base].car34 {
     background-image: var(--car34);
 }
 
-div[class*=car-base].car35{
+div[class*=car-base].car35 {
     background-image: var(--car35);
 }
 
-div[class*=car-base].car36{
+div[class*=car-base].car36 {
     background-image: var(--car36);
 }
 
-div[class*=car-base].car37{
+div[class*=car-base].car37 {
     background-image: var(--car37);
 }
 
-div[class*=car-base].car38{
+div[class*=car-base].car38 {
     background-image: var(--car38);
 }
 
-div[class*=car-base].car39{
+div[class*=car-base].car39 {
     background-image: var(--car39);
 }
 
-div[class*=car-base].car40{
+div[class*=car-base].car40 {
     background-image: var(--car40);
 }
 
-div[class*=car-base].car41{
+div[class*=car-base].car41 {
     background-image: var(--car41);
 }
 
 
 
 
-div[class*=car-base].car42{
+div[class*=car-base].car42 {
     background-image: var(--car42);
 }
 
@@ -358,19 +329,19 @@ div.car-tuning.img.car-tuning1_4.car42 {
 }
 
 
-div[class*=car-base].car43{
+div[class*=car-base].car43 {
     background-image: var(--car43);
 }
 
-div[class*=car-base].car44{
+div[class*=car-base].car44 {
     background-image: var(--car44);
 }
 
-div[class*=car-base].car45{
+div[class*=car-base].car45 {
     background-image: var(--car45);
 }
 
-div[class*=car-base].car1019{
+div[class*=car-base].car1019 {
     background-image: var(--car45);
 }
 
@@ -385,15 +356,10 @@ div[class*=car-base].car1011 {
 div[class*=car-base].car1023 {
     background-image: var(--car1023);
 }
-
 #head > div.minwidth_holyhack > div {
     max-height: 100px !important;
 }
 
-/* #index #info h4 {
-    background-image:var(--exclamation);
-    background-repeat: no-repeat;
-  } */
 #index #info h4 {
     background: none !important;
 }
@@ -404,7 +370,6 @@ div[class*=car-base].car1023 {
 
 a {
     transition: 0.2s !important;
-    /* color:rgb(0, 0, 103) !important; */
 }
 
 #head .right .menu a.active {
@@ -476,18 +441,26 @@ body > div.fade.modal2.in > div > div,
 #typeblock > div > div,
 #typeblock > div,
 #toplist > div.content-col > table > tbody > tr > th.highlight,
-.google-visualization-table-tr-odd {
+.google-visualization-table-tr-odd,
+.voclist td.popularity {
     background-color: var(--main-blue) !important;
-    /* color: black; */
 }
 
-/* #gamelist > div:nth-child(1) > div > div > div > div > div{
-    background:var(--bgggradient);
-} */
 .google-visualization-table-tr-even,
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(1) > div.col-xs-4 > div {
     background-color: var(--light-blue) !important;
 }
+
+#about table.cars td {
+    background-color: var(--light-blue) !important;
+}
+
+#about table.cars {
+    background: none !important;
+    border: 20px solid var(--light-blue) !important;
+    border-radius: 10px;
+}
+
 
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(1) > div.col-xs-4 > div > h4 {
     color: black;
@@ -554,7 +527,6 @@ body > div.fade.modal2.in > div > div,
     box-shadow: var(--boxshadow);
     margin-left: -40px;
     min-width: 300px;
-    /* font-size:34px !important; */
     font-family: Arial, Helvetica, sans-serif !important;
 }
 
@@ -625,9 +597,6 @@ body > div.notification-bar.ng-scope {
     transform: scale(1.1) !important;
 }
 
-/* ul > li> a.title{
-    color:black !important;
-} */
 #discussing_forum > ul > li > span.time {
     color: rgb(141, 0, 0) !important;
 }
@@ -655,7 +624,6 @@ body > div.notification-bar.ng-scope {
 #discussing_week > ul > li > span.username > a {
     color: rgb(235, 235, 235) !important;
     transition: 0.13s;
-    /* font-size:18px; */
 }
 
 #discussing_forum > ul > li > a.user-link:before,
@@ -678,19 +646,16 @@ body > div.notification-bar.ng-scope {
 #discussing_recent > ul > li > div > a {
     color: rgb(0, 0, 0) !important;
     transition: 0.13s;
-    /* font-size:17px; */
 }
 
 #discussing_forum > ul > li > a.user-link:hover,
 #discussing_today > ul > li > span.username > a:hover#discussing_recent > ul > li > span.username > a:hover {
-    /* color:rgb(255, 255, 255) !important; */
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.345) !important;
     text-decoration: none;
 }
 
 #discussing_forum > ul > li > a.title:hover,
 #discussing_recent > ul > li > span.username > a:hover {
-    /* color:rgb(255, 255, 255) !important; */
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.345) !important;
 }
 
@@ -713,9 +678,7 @@ body > div.notification-bar.ng-scope {
 #sw_week,
 #sw_success,
 #discussing_forum > div > a {
-    /* background-color:rgba(255, 255, 255, 0.339); */
     padding: 6px;
-    /* font-size:15px; */
     border-radius: 5px;
     transition: 0.2s;
 }
@@ -744,9 +707,6 @@ body > div.notification-bar.ng-scope {
     border-radius: 5px;
 }
 
-/* #speedpanel{
-    opacity:0;
-} */
 #waiting_timeout {
     opacity: 1;
 }
@@ -770,8 +730,6 @@ body > div.notification-bar.ng-scope {
 #status,
 .go {
     border-radius: 12px;
-    /* border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0; */
     background-color: rgb(179, 179, 179);
     box-shadow: var(--boxshadow)
 }
@@ -785,16 +743,9 @@ body > div.notification-bar.ng-scope {
     min-height: 520px;
 }
 
-#typeblock {
-    width: 970px !important;
-    min-width: 78vw;
-}
 
-#typeblock > div > div > div > div > div {}
 
 #inputtextblock > textarea {
-    max-width: 703.5px !important;
-    min-width: 25vw !important;
     background-color: var(--skyblue) !important;
     font-family: arial !important;
 }
@@ -804,38 +755,18 @@ body > div.notification-bar.ng-scope {
     display: none;
 }
 
-#inputtextblock > input {
-    min-width: 76vw;
-}
 
 #typetext > img {
     cursor: none !important;
 }
 
 #inputtext {
-    width: 920px !important;
     box-shadow: none !important;
     color: black !important;
     font-size: 25px;
     transition: 0 !important;
 }
 
-.gameblock {
-    width: 970px !important;
-    min-width: 78vw;
-}
-
-/* background-color:rgba(83, 94, 255, 0.439); */
-/* background-color: var(--typefocus-color); */
-/* .highlight {
-
-    text-decoration: none !important;
-    color: rgb(124, 0, 0) !important;
-
-} */
-#typefocus {
-    /* color: var(--font-color) !important; */
-}
 
 tr {
     transition: 0.2s;
@@ -884,13 +815,6 @@ tr > td.enter > div > a {
     color: rgb(3, 0, 65);
     opacity: 0.8;
     letter-spacing: -2px;
-    /* -webkit-text-stroke: 0.9px #ffee36; */
-    /* animation-name: hello;
-animation-duration:1s;
-animation-iteration-count: infinite;
-transition: opacity 1s; */
-    /* opacity:0.5; */
-    /* text-shadow:0 0 8px white; */
     cursor: none;
 }
 
@@ -906,17 +830,6 @@ transition: opacity 1s; */
     cursor: none;
 }
 
-/* @keyframes hello {
-    0%{nputtext
-    color:rgb(149, 0, 0);
-    }
-    50%{
-        color:rgb(0, 0, 141);
-    }
-    100%{
-        color:rgb(148, 0, 0);
-    } */
-/* } */
 .back {
     background-color: #151515;
     opacity: 0.7 !important;
@@ -925,20 +838,6 @@ transition: opacity 1s; */
     animation-iteration-count: infinite;
 }
 
-/* @keyframes bpm {
-    from {
-        background-color:#000000;
-
-    }
-    50% {
-        background-color:#3a3a3a;
-
-    }
-    to {
-        background-color:#000000;
-
-    }
-} */
 a {
     transform: none !important;
 }
@@ -948,7 +847,6 @@ a {
 #content > div > div > div > div > div > div.profile-content.ng-scope > div > ul > li.active > a,
 body > div.fade.modal2.in > div > div > div,
 body > div.fade.modal2.in > div > div body > div.fade.modal2.in > div,
-/* body > div.fade.modal2.in, */
 #profile-index > div.col-xs-9 > div.bio.ng-scope > div,
 body > div.fade.modal2.in > div > div > div > div.modal2-body.ng-scope.ng-binding,
 .modal2-header,
@@ -1028,12 +926,6 @@ body > div.fade.modal2.in > div > div > div > div.modal2-body.ng-scope.ng-bindin
 
 #recent-games li > a {
     border-radius: 5px;
-    /* box-sizing:border-box;
-    min-height:55px;*/
-    /*display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center; */
     box-shadow: var(--boxshadow);
 }
 
@@ -1067,7 +959,6 @@ body > div.fade.modal2.in > div > div > div > div.modal2-body.ng-scope.ng-bindin
 #gamelist td.enter a:hover {
     display: block !important;
     box-sizing: border-box !important;
-    /* filter: brightness(1.1) !important; */
     background-color: rgb(0, 255, 0) !important;
 }
 
@@ -1075,13 +966,6 @@ body > div.fade.modal2.in > div > div > div > div.modal2-body.ng-scope.ng-bindin
     border-top: 17px dotted var(--light-blue) !important;
     padding-top: 3vh !important;
     margin-top: 3vh !important;
-    /* background-color: var(--dark-blue); */
-}
-
-
-div#gamelist .remain span,
-div#gamelist .gray_timer span {
-    /* background: none !important; */
 }
 
 #content > div > div > div.gamelist-create > div.r.tl > div > div > div,
@@ -1091,9 +975,7 @@ div#gamelist .gray_timer span {
 }
 
 #status {
-
     background: transparent url('https://i.imgur.com/kJSlpcA.png') no-repeat 0px 0px !important;
-    /* background-color: var(--light-blue) !important; */
     box-shadow: none !important;
 }
 
@@ -1118,8 +1000,6 @@ div#gamelist .gray_timer span {
     background: var(--main-blue) !important;
 }
 
-/* .hide-bar,
-.dummy, */
 .chat-container,
 #chat-content,
 #chat-general,
@@ -1139,10 +1019,6 @@ div#gamelist .gray_timer span {
     background-color: var(--skyblue) !important;
 }
 
-body > div.fade.modal2.in > div > div > div > div.modal2-body.ng-scope.ng-binding,
-body > div.fade.modal2.in > div > div > div > div.modal2-header {
-    /* background-color:var(--skyblue) !important###;  */
-}
 
 img {
     border-radius: 0 !important;
@@ -1198,23 +1074,9 @@ img {
 
 #logo:hover {
     background-color: rgb(255, 255, 255);
-    /* transform:scalergb(212, 27, 209)
-    /* animation-duration: 1s; */
 }
 
-/* 
-@keyframes logo {
 
-    100%,
-    0% {
-        background-color: rgb(255, 128, 0);
-    }
-
-    50% {
-        background-color: rgb(255, 0, 0);
-    }
-
-} */
 #errors_tab {
     background: rgba(255, 255, 255, 0) !important;
     padding: 10px 20px;
@@ -1228,7 +1090,6 @@ img {
     box-shadow: var(--boxshadow);
 }
 
-#content > div > div > div > div > div.profile-header {}
 
 #profile-index > div.col-xs-9 > div.bio.ng-scope > div > div {
     background-color: var(--light-blue) !important;
@@ -1265,12 +1126,7 @@ img {
     letter-spacing: 1px !important;
 }
 
-/* #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div:hover{
-    background-color:rgb(145, 192, 234) !important;
-
-} */
 #profile-index > div.col-xs-9 > div.journal.ng-scope {
-    /* box-shadow:0px 0px 2px 3px rgba(255, 255, 255, 0.656) inset !important; */
     padding: 3px;
     border: 3px solid var(--light-blue);
     border-radius: 8px;
@@ -1280,11 +1136,9 @@ form,
 textarea,
 input,
 button {
-    /* background: var(--light-blue) !important; */
     border-radius: 3px;
     border: 1px solid var(--main-blue) !important;
     padding: 3px !important;
-    /* transition:0.2s; */
 }
 
 textarea {
@@ -1383,7 +1237,6 @@ select {
 
 .contact:hover {
     background: var(--light-blue);
-    /* transform: scale(1.02); */
     box-shadow: -3px -3px 5px 3px inset rgba(0, 0, 0, 0.043);
 }
 
@@ -1405,13 +1258,6 @@ body > div.userpanel.logged.pinned > div.user-block > table > tbody > tr > td:nt
     color: black !important;
 }
 
-/* body > div.userpanel.logged{
-    background: linear-gradient(0deg, rgba(255, 255, 0, 0) 0%, rgba(199, 199, 199, 0.87) 30%, rgb(83, 83, 83) 100%);
-    border:none !important;
-} */
-#stats-block > table > tbody > tr > td {
-    /* color:black !important; */
-}
 
 #profile-index > div.col-xs-9 > div.journal.ng-scope > ng:include > div {
     background-color: var(--main-blue) !important;
@@ -1432,7 +1278,6 @@ body > div.userpanel.logged.pinned > div.user-block > table > tbody > tr > td:nt
 }
 
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div.contact.ng-scope.unread {
-    /* background-color: var(--light-blue) !important; */
     animation-name: unread;
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
@@ -1483,17 +1328,6 @@ div.post.ng-scope.post-hidden {
     background-color: rgba(0, 110, 255, 0.15) !important;
 }
 
-/* @keyframes unread {
-    0% {
-        background:red!important
-    }
-    50% {
-        background-color:var(--skyblue)!important
-    }
-    100% {
-        background-color:var(--skyblue)!important
-    }
-} */
 .stats {
     border: 0 !important;
     min-width: 250px !important;
@@ -1543,17 +1377,7 @@ input[type=button],
     border: 0px !important;
 }
 
-.highlight_error {
-    /* background: rgb(238, 124, 153) !important; */
-    color: white !important;
-    font-weight: 400;
-    transition: 0 !important;
-}
 
-.error {
-    background: rgb(173, 173, 173) !important;
-    transition: 0 !important;
-}
 
 #inputtext.highlight_error {
     background: rgb(173, 173, 173) !important;
@@ -1562,11 +1386,6 @@ input[type=button],
     font-weight: 400;
 }
 
-#inputtext.error {
-    background: rgb(255, 136, 125) !important;
-    /* color: white !important; */
-    /* transition:0.1s; */
-}
 
 
 #speedpanel-canvas {
@@ -1577,23 +1396,12 @@ input[type=button],
     background: var(--speedpanel) !important;
     background-size: 87px 262px;
 }
-
-/* #speedpanel > canvas,
-#speedpanel-canvas,
-#status-block > div:nth-child(2) > canvas,
-#sortable > div:nth-child(1) > div:nth-child(2) > canvas,
-#play-overall > table > tbody > tr > td > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > canvas{
-    background:var(--speedpanel);
-    background-position: revert !important;
-} */
-/* background-image:var(--speedpanel); */
 body > div.modal2-backdrop.fade.in {
     opacity: 0.3 !important;
 }
 
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div.profile-stats-overview > div > div > div:nth-child(1) > div.col-xs-8 > div > div > div:nth-child(1) > div > svg > rect {
     opacity: 0;
-    /* border-radius:12px !important; */
 }
 
 .profile-root .journal .comments {
@@ -1612,8 +1420,6 @@ body > div.modal2-backdrop.fade.in {
 
 #content > div > div > div > div > div:nth-child(4) > div.profile-content.ng-scope > div > div > div > div > div {
     padding-left: 0 !important;
-    /* margin: 0 !important; */
-    /* transform: translateX(30px) !important; */
     max-width: 698px;
 }
 
@@ -1625,11 +1431,13 @@ body > div.modal2-backdrop.fade.in {
     box-shadow: none !important;
 }
 
-#profile-index .bio .content .clickable {
-    /* transform:translateX(-15px); */
-}
 
-#toplist > div.content-col > ul > li.active {
+#toplist > div.content-col > ul > li.active,
+#content > div > div > div > div.left-col > ul > li.active,
+#about > dl > dd > ul > li.active,
+#learning > dl > dd > ul > li.active,
+#faq > dl.menu > dd > ul > li.active,
+#pro > dl > dd > ul > li.active {
     background: none;
     background-color: rgb(0, 40, 75) !important;
     color: rgb(231, 231, 231);
@@ -1637,18 +1445,13 @@ body > div.modal2-backdrop.fade.in {
     border-bottom: 3px solid rgb(255, 119, 0);
 }
 
+#content > div > div > div > div.left-col > ul > li.active > span {
+    background: none !important;
+    text-align: left;
+}
+
 #head > div.minwidth_holyhack > div {
-    /* background-image: linear-gradient(225deg,
-            hsl(208deg 28% 64%) 0%,
-            hsl(209deg 26% 66%) 11%,
-            hsl(209deg 24% 68%) 22%,
-            hsl(209deg 22% 70%) 33%,
-            hsl(209deg 20% 72%) 44%,
-            hsl(210deg 17% 75%) 56%,
-            hsl(0, 0%, 83%) 67%,
-            hsl(0deg 0% 83%) 100%); */
     background: radial-gradient(circle at 100% 100%, rgb(69, 103, 141) 0%, rgba(212, 212, 212, 1) 69%, rgba(212, 212, 212, 1) 100%);
-    /* border-bottom: 3px solid rgb(0, 40, 75); */
 }
 
 #head > div.minwidth_holyhack > div::after {
@@ -1677,10 +1480,9 @@ body > div.modal2-backdrop.fade.in {
     background-color: var(--pale) !important;
     color: white;
     transition: 0.2s;
-    padding: 6px;
+    padding: 8px 6px 0px 6px;
     text-decoration: none !important;
     border-bottom: 3px solid var(--orange);
-    /* border-radius: 6px; */
 }
 
 #head > div.minwidth_holyhack > div > div.right > div.menu > a:hover {
@@ -1700,7 +1502,8 @@ body > div.modal2-backdrop.fade.in {
     color: white !important;
 }
 
-#toplist > div.left-col > ul > li.active {
+#toplist > div.left-col > ul > li.active,
+#content > div > div > div > div.left-col > ul > li.active {
     background: none;
     background-color: var(--deep) !important;
     color: rgb(231, 231, 231) !important;
@@ -1713,16 +1516,11 @@ body > div.modal2-backdrop.fade.in {
 #head > div.minwidth_holyhack > div > div.right > div.menu > a.active,
 #head > div.minwidth_holyhack > div > div.right > div.menu > a.active.real {
     background: none;
-    /* background: radial-gradient(ellipse at 0% 100%, rgba(227, 124, 36, 1) 0%, rgba(255, 255, 0, 1) 100%) !important; */
-    /* background: radial-gradient(ellipse at 0% 100%, rgb(0, 40, 75) 20%, var(--pale) 100%) !important; */
     background-color: var(--deep) !important;
     border-bottom: 3px solid var(--orange);
     padding: 8px 7px 0px 7px;
-    /* border-radius:6px; */
-    /* box-shadow: var(--boxshadow); */
     color: rgb(231, 231, 231);
     font-weight: 1000;
-    /* transform: translateY(-4px) !important; */
     transform: translateY(3px) !important;
     z-index: 50;
 }
@@ -1730,15 +1528,12 @@ body > div.modal2-backdrop.fade.in {
 #head > div.minwidth_holyhack > div > div.right > div.menu > a.active:hover,
 #head > div.minwidth_holyhack > div > div.right > div.menu > a.active.real:hover,
 #toplist > div.content-col > ul > li.active {
-    /* background: radial-gradient(ellipse at 0% 100%, rgba(227, 124, 36, 1) 0%, rgba(255, 255, 0, 1) 100%) !important; */
-    /* filter: brightness(1.2) !important; */
     color: rgb(255, 255, 255);
 }
 
 .profile-root .profile-content .nav-top li a {
     background-color: rgba(255, 255, 255, 0.1);
     color: blue !important;
-    /* -webkit-text-stroke: 1px #222222; */
     text-shadow: 1px 2px 3px rgb(145, 145, 145);
     font-weight: 1000;
 }
@@ -1759,9 +1554,6 @@ body > div.modal2-backdrop.fade.in {
 #forums-list > table > tbody > tr > td {
     border-top: 1px solid rgb(180, 180, 180) !important;
     border-bottom: 1px solid rgb(180, 180, 180) !important;
-    /* box-shadow:0 5px 13px 1px inset rgb(171, 171, 171);
-transition:0.5s; */
-    /* background-color: var(--light-blue); */
 }
 
 #forums-list > table > tbody > tr {
@@ -1910,6 +1702,10 @@ blockquote,
 
 #RCLSettings > svg:nth-child(1) {
     margin: 5px !important;
+}
+
+#content > div > div > div > div.left-col > a {
+    transition: all 0s ease 0s !important;
 }
 }
 
