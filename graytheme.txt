@@ -1,5 +1,5 @@
 @-moz-document domain("klavogonki.ru") {
-@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap');
 
 #speedpanel #speed-label {
     font-family: monospace;
@@ -8,7 +8,10 @@
 #speedpanel #errors-label {
     font-family: monospace;
 }
-
+#players > div.player.you.ng-scope > table > tbody > tr > td.name > div > table > tbody > tr> td > div > a{
+    font-weight:700 !important;
+    font-size:15px;
+}
 a,
 #players > div,
 #discussing_today > div > span,
@@ -16,7 +19,8 @@ a,
 #discussing_week > div > span,
 #discussing_forum > div > span,
 #profile-index > div.col-xs-3 > div > div > div {
-    font-family:'Trebuchet MS', sans-serif
+    font-family: 'Arimo', sans-serif;
+    font-weight:400;
 }
 
 #discussing_today > div > span,
@@ -24,6 +28,15 @@ a,
 #discussing_week > div > span,
 #discussing_forum > div > span {
     transition: 0.2s;
+}
+#players > div.player.ng-scope > div.rating > div> ins.place{
+    font-family: 'Arimo', sans-serif;
+    font-weight:600 !important;
+    
+}
+div > div.rating > div.stats{
+    font-family: 'Arimo', sans-serif;
+    font-weight:500 !important;
 }
 
 :root {
@@ -513,13 +526,28 @@ body > div.fade.modal2.in > div > div,
 #top > div {
     background: rgb(212, 212, 212) !important;
 }
-
+#top_today > table > tbody > tr>*,
+#discussing_recent > ul > li> span.username > a,
+#discussing_recent > ul > li> div > a,
+#discussing_week > ul > li> div > a,
+#discussing_week > ul > li> span.username > a,
+#discussing_today > ul > li> span.username > a,
+#discussing_today > ul > li div > a,
+#discussing_forum > ul > li> a.user-link{
+    font-size:14px;
+}
+#discussing_today > ul > li> span.date,
+#discussing_recent > ul > li> span.date,
+#discussing_week > ul > li> span.date{
+    font-size:12px;
+    
+}
 #top > div > div > div > div > div {
-    background: radial-gradient(circle at 0% 100%, rgb(196, 198, 93) 0%, rgba(212, 212, 212, 0.5) 100%) !important;
+    background: radial-gradient(circle at 0% 100%, rgb(248, 255, 130) 0%, rgba(212, 212, 212, 0.5) 100%) !important;
 }
 
 #live {
-    background: radial-gradient(circle at 0% 100%, #7498b4 0%, #9DB2BF 100%) !important;
+    background: radial-gradient(circle at 0% 100%, #518cbb 0%, #89afc6 100%) !important;
     border: 1px solid rgb(146, 146, 146);
     border-radius: 12px;
     min-height: 520px;
@@ -1218,8 +1246,6 @@ select {
     background-color: rgba(0, 0, 0, 0.15) !important;
 }
 
-
-
 .messages-contacts,
 .dialog {
     background: var(--light-blue);
@@ -1519,7 +1545,7 @@ body > div.modal2-backdrop.fade.in {
     background-color: var(--deep) !important;
     border-bottom: 3px solid var(--orange);
     padding: 8px 7px 0px 7px;
-    color: rgb(231, 231, 231);
+    color: rgb(255, 255, 255);
     font-weight: 1000;
     transform: translateY(3px) !important;
     z-index: 50;
@@ -1707,8 +1733,5 @@ blockquote,
 #content > div > div > div > div.left-col > a {
     transition: all 0s ease 0s !important;
 }
-}
 
-@-moz-document url-prefix("https://example.com/") {
-
-}
+/* sashavirtual variable */
