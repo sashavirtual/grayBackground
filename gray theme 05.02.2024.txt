@@ -75,7 +75,7 @@ div > div.rating > div.stats{
     --car17: url('https://i.imgur.com/R7YqlTQ.png') !important;
     /* --car18:  url('https://i.imgur.com/FDLpEdM.png')  !important; */
     /* --car18:  url('https://i.imgur.com/ENLiLnS.png')  !important; */
-    /* аэроглиссер */
+    /* Р°СЌСЂРѕРіР»РёСЃСЃРµСЂ */
     --car18: url('https://i.imgur.com/zi7ljls.png') !important;
     --car19: url('https://i.imgur.com/qekADGT.png') !important;
     --car20: url('https://i.imgur.com/83qWcfY.png') !important;
@@ -114,7 +114,7 @@ div > div.rating > div.stats{
     --enter-normal: url('https://i.imgur.com/kyfFWSh.png') !important;
     --enter-mixed: url('https://i.imgur.com/ASBG5NY.png') !important;
     --enter-x: url('https://i.imgur.com/IdTQb2U.png') !important;
-    /* --enter-x:url('https://i.imgur.com/HSjKICj.png') !important; без серого фона вокруг кружка */
+    /* --enter-x:url('https://i.imgur.com/HSjKICj.png') !important; Р±РµР· СЃРµСЂРѕРіРѕ С„РѕРЅР° РІРѕРєСЂСѓРі РєСЂСѓР¶РєР° */
     --enter-late: url('https://i.imgur.com/7eRXy3J.png') !important;
     --clock: url('https://i.imgur.com/9aE1qlf.png') !important;
     --exclamation: url('https://i.imgur.com/Ar5GKnK.png') !important;
@@ -803,7 +803,7 @@ tr {
     color: #930000 !important;
 }
 
-*/ #stats-block > table > tbody > tr:nth-child(1) > td:nth-child(2),
+#stats-block > table > tbody > tr:nth-child(1) > td:nth-child(2),
 #stats-block > table > tbody > tr:nth-child(1) > td:nth-child(5),
 #stats-block > table > tbody > tr:nth-child(2) > td:nth-child(2),
 #stats-block > table > tbody > tr:nth-child(2) > td:nth-child(4) {
@@ -1683,7 +1683,7 @@ body > div.modal2-backdrop.fade.in {
 
 
 
-/* КЛАВОПЕДИЯ */
+/* РљР›РђР’РћРџР•Р”РРЇ */
 #mw-head,
 #mw-head-base,
 #content,
